@@ -44,3 +44,11 @@ window.addEventListener('DOMContentLoaded', event => {
     });
 
 });
+
+document.getElementById('login').addEventListener('submit', function(event) {
+
+    event.preventDefault(); // Prevent the default form submission
+
+    window.location.href = 'loggedin.html'; // Redirect to loggedin.html
+
+});
